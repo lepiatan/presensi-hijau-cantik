@@ -8,7 +8,7 @@ const CTA = () => {
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-background rounded-full blur-3xl"></div>
       </div>
       
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-6 md:px-8 lg:px-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground">
             Siap Untuk Modernisasi Sistem Absensi Sekolah Anda?

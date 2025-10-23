@@ -28,7 +28,7 @@ const featureList = [
 const FeatureShowcase = () => {
   return (
     <section id="fitur" className="py-20 md:py-32 bg-secondary/30">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 md:px-8 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>

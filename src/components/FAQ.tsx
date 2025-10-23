@@ -31,7 +31,7 @@ const faqs = [
 const FAQ = () => {
   return (
     <section id="faq" className="py-20 md:py-32 bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 md:px-8 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-primary font-semibold mb-2">FAQ</p>
