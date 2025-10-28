@@ -71,8 +71,8 @@ const Features = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="-left-12 md:-left-16" />
-          <CarouselNext className="-right-12 md:-right-16" />
+          <CarouselPrevious className="-left-12 md:-left-16 h-12 w-12 border-2 bg-background shadow-md hover:bg-accent z-10" />
+          <CarouselNext className="-right-12 md:-right-16 h-12 w-12 border-2 bg-background shadow-md hover:bg-accent z-10" />
         </Carousel>
       </div>
     </section>
