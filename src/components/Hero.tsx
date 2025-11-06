@@ -40,6 +40,9 @@ const Hero = () => {
               <Button size="lg" className="text-base">
                 Coba Gratis
               </Button>
+              <Button size="lg" variant="outline" className="text-base">
+                Hubungi Sales
+              </Button>
             </div>
           </div>
 
