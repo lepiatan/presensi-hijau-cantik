@@ -27,12 +27,12 @@ const featureList = [
 
 const FeatureShowcase = () => {
   return (
-    <section id="fitur" className="py-20 md:py-32 bg-secondary/30">
+    <section id="fitur" className="py-16 md:py-24 bg-secondary/30">
       <div className="container mx-auto px-6 md:px-8 lg:px-12">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
+          <div className="space-y-6">
             <div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                 Fitur Lengkap untuk Mengelola Kehadiran
               </h2>
               <p className="text-lg text-muted-foreground">
@@ -40,7 +40,7 @@ const FeatureShowcase = () => {
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-4">
               {featureList.map((feature, index) => (
                 <div 
                   key={index}
@@ -61,7 +61,7 @@ const FeatureShowcase = () => {
               ))}
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button size="lg">
                 Pelajari Lebih Lanjut
               </Button>
