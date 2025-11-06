@@ -5,8 +5,8 @@ import dashboardImage from "@/assets/dashboard-mockup.png";
 const featureList = [
   {
     icon: Smartphone,
-    title: "Absensi via Smartphone",
-    description: "Guru dan siswa dapat melakukan absensi menggunakan smartphone dengan mudah dan cepat"
+    title: "Absensi via QR Code",
+    description: "Guru dan siswa dapat melakukan absensi menggunakan QR Code dengan mudah dan cepat"
   },
   {
     icon: FileText,
@@ -15,13 +15,8 @@ const featureList = [
   },
   {
     icon: Settings,
-    title: "Kustomisasi Sistem",
-    description: "Sesuaikan sistem dengan kebutuhan sekolah Anda, dari jadwal hingga metode absensi"
-  },
-  {
-    icon: TrendingUp,
-    title: "Analisis Data",
-    description: "Dapatkan insight mendalam tentang pola kehadiran dengan visualisasi data yang menarik"
+    title: "Multi Sekolah",
+    description: "Kelola beberapa sekolah dalam satu sistem dengan mudah dan terintegrasi"
   }
 ];
 
