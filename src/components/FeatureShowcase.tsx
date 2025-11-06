@@ -60,9 +60,6 @@ const FeatureShowcase = () => {
               <Button size="lg">
                 Pelajari Lebih Lanjut
               </Button>
-              <Button size="lg" variant="outline">
-                Lihat Demo
-              </Button>
             </div>
           </div>
 

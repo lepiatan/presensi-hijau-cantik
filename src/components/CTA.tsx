@@ -22,14 +22,7 @@ const CTA = () => {
               variant="secondary" 
               className="text-base font-semibold"
             >
-              Mulai Uji Coba Gratis
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="text-base font-semibold bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            >
-              Jadwalkan Demo
+              Daftar Demo Gratis
             </Button>
           </div>
         </div>
