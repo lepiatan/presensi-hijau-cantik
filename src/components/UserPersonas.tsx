@@ -35,9 +35,8 @@ const UserPersonas = () => {
   ];
 
   return (
-    <section className="py-20 px-4">
-      <div className="container mx-auto max-w-7xl">
-        <div className="grid md:grid-cols-3 gap-0">
+    <section className="w-full">
+      <div className="grid md:grid-cols-3 gap-0">
           {personas.map((persona) => (
             <div
               key={persona.id}
@@ -76,7 +75,6 @@ const UserPersonas = () => {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 };
