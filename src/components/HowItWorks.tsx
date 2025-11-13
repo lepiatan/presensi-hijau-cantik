@@ -31,11 +31,11 @@ const HowItWorks = () => {
           "Empat Langkah Sederhana, Absensi Jadi Otomatis."
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
-              <div key={index} className="flex flex-col items-start space-y-3">
+              <div key={index} className="flex flex-col items-start space-y-3 w-full">
                 <div className="mb-2">
                   <Icon className="w-14 h-14 md:w-16 md:h-16 text-foreground" strokeWidth={1.5} />
                 </div>
