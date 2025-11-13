@@ -1,4 +1,5 @@
 import { FileText, QrCode, ScanLine, BarChart3 } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 
 const HowItWorks = () => {
   const steps = [
@@ -31,21 +32,23 @@ const HowItWorks = () => {
           "Empat Langkah Sederhana, Absensi Jadi Otomatis."
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
-              <div key={index} className="flex flex-col items-start space-y-3">
-                <div className="mb-2">
-                  <Icon className="w-14 h-14 md:w-16 md:h-16 text-foreground" strokeWidth={1.5} />
-                </div>
-                <h3 className="font-semibold text-base md:text-lg text-foreground">
-                  {step.title}
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
+              <Card key={index} className="border-border/50 hover:border-primary/20 transition-colors">
+                <CardContent className="pt-8 pb-6 px-6 flex flex-col items-center text-center space-y-4">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Icon className="w-8 h-8 text-primary" strokeWidth={1.5} />
+                  </div>
+                  <h3 className="font-semibold text-lg text-foreground">
+                    {step.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {step.description}
+                  </p>
+                </CardContent>
+              </Card>
             );
           })}
         </div>
