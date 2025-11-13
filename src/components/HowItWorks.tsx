@@ -25,21 +25,21 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-background">
-      <div className="container mx-auto max-w-7xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+    <section className="py-16 md:py-24 bg-background">
+      <div className="container mx-auto max-w-7xl px-4 md:px-6">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 md:mb-16 text-foreground">
           "Empat Langkah Sederhana, Absensi Jadi Otomatis."
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
-              <div key={index} className="flex flex-col items-start">
-                <div className="mb-4">
-                  <Icon className="w-16 h-16 text-foreground" strokeWidth={1.5} />
+              <div key={index} className="flex flex-col items-start space-y-3">
+                <div className="mb-2">
+                  <Icon className="w-14 h-14 md:w-16 md:h-16 text-foreground" strokeWidth={1.5} />
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-foreground">
+                <h3 className="font-semibold text-base md:text-lg text-foreground">
                   {step.title}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
